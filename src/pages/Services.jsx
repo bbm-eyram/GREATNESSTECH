@@ -63,8 +63,8 @@ const Services = () => {
                             we are committed to providing the tools and expertise to accelerate your success in today’s competitive tech landscape.
                             </p>
                             <div className="w3l-buttons mt-sm-5 mt-4">
-                                <Link className="btn btn-primary btn-style me-2" href="/services">Read More</Link>
-                                <Link className="btn btn-outline-primary btn-style mr-2" href="/contact">Contact Us</Link>
+                                <Link className="btn btn-primary btn-style me-2" to="/about">Read More</Link>
+                                <Link className="btn btn-outline-primary btn-style mr-2" to="/contact">Contact Us</Link>
                             </div>
                         </div>
                     </div>
