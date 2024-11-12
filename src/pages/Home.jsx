@@ -24,10 +24,10 @@ const Home = () => {
             Our goal is to deliver tailored solutions that not only meet your business needs but also position your brand for success in the digital space.
             </p>
             <div className="w3l-buttons mt-sm-5 mt-4">
-              <Link href='/about' className="btn btn-primary btn-style me-2" to="/about">
+              <Link to='/about' className="btn btn-primary btn-style me-2" to="/about">
                 Read More
               </Link>
-              <Link href='/contact' className="btn btn-outline-primary btn-style" to="/contact">
+              <Link to='/contact' className="btn btn-outline-primary btn-style" to="/contact">
                 Contact Us
               </Link>
             </div>
@@ -256,10 +256,10 @@ const Home = () => {
           Let's work together to achieve your goals and grow your business.
           </p>
           <div className="w3l-two-buttons">
-            <Link href="/about" className="btn btn-style btn-primary mt-lg-5 mt-4">
+            <Link to="/about" className="btn btn-style btn-primary mt-lg-5 mt-4">
               Read More
             </Link>
-            <Link href="/contact" className="btn btn-style btn-white mt-lg-5 mt-4 ms-2">
+            <Link to="/contact" className="btn btn-style btn-white mt-lg-5 mt-4 ms-2">
               Contact Us
             </Link>
           </div>
