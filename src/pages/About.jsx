@@ -184,8 +184,8 @@ const About = () => {
                         </div>
                         <div className="col-lg-4 w3l-project-left about-w3page-btns mt-lg-0 mt-4">
                             <div className="w3l-buttons d-sm-flex">
-                                <Link className="btn btn-primary btn-style me-2" href="/about">Read More</Link>
-                                <Link className="btn btn-outline-primary btn-style" href="/contact">Contact Us</Link>
+                                <Link className="btn btn-primary btn-style me-2" to="/about">Read More</Link>
+                                <Link className="btn btn-outline-primary btn-style" to="/contact">Contact Us</Link>
                             </div>
                         </div>
                     </div>
