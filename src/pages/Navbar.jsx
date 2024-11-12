@@ -34,7 +34,7 @@ const Navbar = () => {
         <header id="site-header" className="fixed-top">
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light stroke py-lg-0">
-                <h1><Link className="navbar-brand pe-xl-5 pe-lg-4" href="/">
+                <h1><Link className="navbar-brand pe-xl-5 pe-lg-4" to="/">
                         <span className="sublog">GREATNESS</span>TECH HUB
                     </Link></h1>
                 <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
