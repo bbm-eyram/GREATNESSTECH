@@ -82,8 +82,8 @@ const About = () => {
                                 our focus is on ensuring our clients achieve their goals with precision and creativity.
                                 </p>
                                 <div className="w3l-buttons mt-sm-5 mt-4">
-                                    <Link className="btn btn-primary btn-style me-2" href="/about">Read More</Link>
-                                    <Link className="btn btn-outline-primary btn-style mr-2" href="/services">Services</Link>
+                                    <Link className="btn btn-primary btn-style me-2" to="/about">Read More</Link>
+                                    <Link className="btn btn-outline-primary btn-style mr-2" to="/services">Services</Link>
                                 </div>
                             </div>
                             <div className="col-lg-5 ab-left ps-lg-5">
